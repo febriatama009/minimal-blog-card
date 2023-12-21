@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Sora", sans-serif;
+}
+
+body {
+  background-color: #fafaf9;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.content-1 {
+  padding: 20px;
+  display: grid;
+  gap: 12px;
+}
+
+.content-2 {
+  border-top: solid #dee3ec;
+  border-width: 1px;
+}
+
+.content-2 p {
+  padding: 20px;
+}
+
+img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.content {
+  width: 25%;
+  background-color: white;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  box-shadow: 10px 20px 20px #e5eaf0;
+}
+
+.tag {
+  width: fit-content;
+  padding-left: 18px;
+  padding-right: 18px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  background-color: #e6d6fc;
+  color: #883ae1;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  font-size: 10px;
+  font-weight: 600;
+}
+
+.title {
+  font-size: 18px;
+  color: #20293a;
+}
+
+.body-text {
+  font-size: 14px;
+  color: #6c727f;
+}
+
+.small-text {
+  font-size: 10px;
+  color: #6c727f;
+}
+
+@media screen and (max-width: 1280px) {
+  .content {
+    width: 50%;
+  }
+}
